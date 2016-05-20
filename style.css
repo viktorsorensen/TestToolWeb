@@ -113,7 +113,7 @@ header {
 
 .row3 .middle input[type="text"],
 .row3 .middle input[type="password"] {
-    box-sizing: border-box;
+    
     outline: none;
     display: block;
     width: 100%;
