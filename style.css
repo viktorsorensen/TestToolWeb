@@ -83,11 +83,15 @@ body {
 header {
     height: 73px;
     background-color:#f47920;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .row3 .six, .row3 .three {
     height: 300px;
+}
+
+.row .row3index {
+    margin-top: 150px;
 }
 
 .row header h1 {
@@ -98,14 +102,19 @@ header {
     width: 66%;
 }
 
+.row h1 {
+    text-shadow: 0px 1px 1px #333;
+    color: #333;
+}
+
 .row3 .middle {
     background-color: #fff;
 }
 
 .row3 .middle h2 {
-    background: #4d4d4d;
+    background: #f47920;
     text-transform: uppercase;
-    color: #797979;
+    color: #fff;
     font-size: 18px;
     font-weight: 100;
     padding: 20px;
@@ -113,7 +122,7 @@ header {
 
 .row3 .middle input[type="text"],
 .row3 .middle input[type="password"] {
-    
+    box-sizing: border-box;
     outline: none;
     display: block;
     width: 100%;
@@ -125,22 +134,42 @@ header {
     height: 45px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
+    transition: border 1s;
     
 }
 
-.row3 .middle button {
-    background-color: #2980b9;
+.row3 .middle input[type="text"]:hover,
+.row3 .middle input[type="password"]:hover {
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
     border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    margin-bottom: 10px;
+    height: 45px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.row3 .middle button {
+    background-color: #f47920;
+    border: none;
+    border-bottom: 2px solid #BD6B39;
     border-radius: 5px;
     height: 40px;
     color: #fff;
     width: 198px;
     cursor: pointer;
     float: left;
+    transition: background-color .7s;
+    font-family: "Open Sans", sans-serif;
 } 
 
 .row3 .middle a {
-    color: #2980b9;
+    color: #333;
     margin: 0 auto;
     text-decoration: none;
     margin-bottom: 10px;
@@ -149,11 +178,11 @@ header {
 }
 
 .row3 .middle a:hover {
-    color: #226C9C;
+    color: #222;
 }
 
 .row3 .middle button:hover {
-    background-color: #226C9C;
+    background-color: #BD6B39;
 }
 
 header ul > :first-child {
@@ -272,5 +301,24 @@ footer {
     color:darkred;
 }
 
+.studentinfo {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background-color: #eee;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom: 3px solid #bbb;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
+.testone:hover {
+    color: #fff;
+}
 
+.studentinfo:hover {
+    background-color: #d9d9d9;
+    cursor: pointer;
+}
