@@ -148,6 +148,7 @@ textarea {
     margin-bottom: 10px;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
+    resize: none;
 }
 
 .row3 .middle input[type="text"]:hover,
