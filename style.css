@@ -149,6 +149,7 @@ textarea {
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
     resize: none;
+
 }
 
 .row3 .middle input[type="text"]:hover,
@@ -319,7 +320,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-color: #27ae60;
+    background-color: #ddd;
     padding: 10px;
     border-radius: 5px;
     border-bottom: 3px solid #bbb;
@@ -332,7 +333,7 @@ footer {
 }
 
 .studentinfo:hover {
-    background-color: #2ecc71;
+    background-color: #ccc;
     cursor: pointer;
 }
 
@@ -351,4 +352,17 @@ footer {
 
 .red:hover {
     background: #e74c3c
+}
+
+.green {
+    background: #27ae60;
+}
+
+.green:hover {
+    background: #2ecc71;
+}
+
+#radiotests {
+    width: 70%;
+    display: inline-block;
 }
