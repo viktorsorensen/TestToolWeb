@@ -179,6 +179,7 @@ textarea {
     float: left;
     transition: background-color .7s;
     font-family: "Open Sans", sans-serif;
+    outline: none;
 } 
 
 .row3 .middle a {
@@ -318,8 +319,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    background-color: #eee;
-    border: 2px solid #ddd;
+    background-color: #27ae60;
     padding: 10px;
     border-radius: 5px;
     border-bottom: 3px solid #bbb;
@@ -332,6 +332,23 @@ footer {
 }
 
 .studentinfo:hover {
-    background-color: #d9d9d9;
+    background-color: #2ecc71;
     cursor: pointer;
+}
+
+.studentinfo a {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.red {
+    background: #c0392b;
+    color: #fff;
+}
+
+.red:hover {
+    background: #e74c3c
 }
