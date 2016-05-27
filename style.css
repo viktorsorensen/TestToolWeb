@@ -87,7 +87,7 @@ header {
 }
 
 .row3 .six, .row3 .three {
-    height: 700px;
+    height: 1300px;
 }
 
 .row .row3index {
@@ -371,4 +371,24 @@ footer {
 
 #openquestion {
     display: none;
+}
+
+.add {
+    background-color: #f47920;
+    border: none;
+    border-bottom: 2px solid #BD6B39;
+    border-radius: 5px;
+    height: 40px;
+    color: #fff;
+    width: 198px;
+    cursor: pointer;
+    float: left;
+    transition: background-color .7s;
+    font-family: "Open Sans", sans-serif;
+    outline: none;
+    margin-right: 10px;
+}
+
+legend {
+    font-weight: 700;
 }
