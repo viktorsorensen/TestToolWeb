@@ -17,6 +17,7 @@
                       <li><a href="teacher-correct-test.html">Rätta prov</a></li>
                       <li><a href="teacher-help.html">Hjälp</a></li>
                       <li><a href="../index.html">Logga ut</a></li>
+                      </ul>
                 </header>
            </div>
           <div class ="row">
@@ -25,31 +26,19 @@
                 
               </div>
               <div class="six middle">
-                <h1 style="text-align:center">Skapa/ta bort prov!</H1>
-                <div class="studentinfo green">
-                  <a href="create-radio-test.html">Skapa alternativsprov</a>
-                  <br><br>
-                  </div>
-                  <div class="studentinfo green">
-                  <a href="create-checkbox-test.html">Skapa flervalsprov</a>
-                  <br><br>
-                  </div>
-                  <div class="studentinfo green">
-                    <a href="create-open-test.html">Skapa öppna frågorprov</a>
-                    <br><br>
-                  
-                  </div>
-                  <div class="studentinfo green">
-                    <a href="create-rank-test.html">Skapa rangordningsprov</a>
-                    <br><br>
-                  </div>
-                  <div class="studentinfo red">
-                    <p>Ta bort prov</p>
-                  </div>
+                <h1 style="text-align:center">Skapa/ta bort prov!</h1>
+
+                <input type="text" id="openquestion">
+
+                <button type="button" class="create-test-button" id="manyquestions">Skapa flervalsfråga</button>
+                <button type="button" class="create-test-button">Skapa alternativsfråga</button>
+                <button type="button" class="create-test-button" id="openquestionbutton">Skapa öppen fråga</button>
+                <button type="button" class="create-test-button">Skapa rangordningsfråga</button>
               </div>
               <div class ="three right">
                 
               </div>
+      </div>
       </div>
         <div class ="row">
        <footer>
@@ -66,4 +55,8 @@
        </footer>
      </div>
    </body>
-          
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+   <script src="script.js"></script>
+
+   </html>

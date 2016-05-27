@@ -1,7 +1,6 @@
 
 body {
-    background-color: #fff;
-    margin: 0;
+margin: 0;
     font-family: "Open Sans", sans-serif;
     height: 100%;
 }
@@ -84,6 +83,7 @@ header {
     height: 73px;
     background-color:#f47920;
     margin-bottom: 50px;
+    border-bottom: 1px solid #666;
 }
 
 .row3 .six, .row3 .three {
@@ -108,7 +108,7 @@ header {
 }
 
 .row3 .middle {
-    background-color: #fff;
+    
 }
 
 .row3 .middle h2 {
@@ -181,6 +181,7 @@ textarea {
     transition: background-color .7s;
     font-family: "Open Sans", sans-serif;
     outline: none;
+    margin-left: 10px;
 } 
 
 .row3 .middle a {
@@ -198,6 +199,7 @@ textarea {
 
 .row3 .middle button:hover {
     background-color: #BD6B39;
+    border-right: 3px solid transparent;
 }
 
 header ul > :first-child {
@@ -365,4 +367,8 @@ footer {
 #radiotests {
     width: 70%;
     display: inline-block;
+}
+
+#openquestion {
+    display: none;
 }
