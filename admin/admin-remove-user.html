@@ -24,7 +24,38 @@
                 
               </div>
               <div class="six middle">
+                
+                <script>
+                  function delBoxes(){
+                    var boxes = document.getElementsByClassName('chk');
+
+                    for(var i = 0; i<boxes.length; i++){
+                      box = boxes[i];
+                      if(box.checked){
+                          box.parentNode.removeChild(box);
+                      }
+                  }
+              }
+                </script>
+                
+                
                 <h1 style="text-align:center">Ta bort användare!</H1>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Rrahman<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Hampus<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Viktor<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Namir<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Niklas<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Mergim<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Åsa<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Kevin<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Anna<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Nahal<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Ibrahim<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Christoffer<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Jonas<br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test"><strike>Cam</strike><br>
+                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Marius<br>
+                  <br><button type="button" onclick="delBoxes();" >Ta bort användare</button>
               </div>
               <div class ="three right">
                 
@@ -44,5 +75,6 @@
         </ul>
        </footer>
      </div>
+     
    </body>
           
