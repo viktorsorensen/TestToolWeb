@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="../style.css">
-        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-        <meta charset="utf-8">
-        <title>Ta bort användare</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="row">
-                <header>
-                    <ul>
-                      <li><a href="index.html">Newton admin</a></li>
-                      <li><a href="admin-add-user.html">Lägg till användare</a></li>
-                      <li><a href="admin-remove-user.html">Ta bort användare</a></li>
-                      <li><a href="../index.html">Logga ut</a></li>
-                </header>
-           </div>
-          <div class ="row">
-            <div class ="row3">
-              <div class ="three left">
-                
-              </div>
-              <div class="six middle">
-                
-                <script>
-                  function delBoxes(){
+
+<head>
+  <link rel="stylesheet" href="../style.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <meta charset="utf-8">
+  <title>Ta bort användare</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <header>
+        <ul>
+          <li><a href="index.html">Newton admin</a></li>
+          <li><a href="admin-add-user.html">Lägg till användare</a></li>
+          <li><a href="admin-remove-user.html">Ta bort användare</a></li>
+          <li><a href="../index.html">Logga ut</a></li>
+      </header>
+    </div>
+    <div class="row">
+      <div class="row3">
+        <div class="three left">
+
+        </div>
+        <div class="six middle">
+
+          <script>
+            function delBoxes(){
                     var boxes = document.getElementsByClassName('chk');
 
                     for(var i = 0; i<boxes.length; i++){
@@ -36,45 +38,44 @@
                       }
                   }
               }
-                </script>
-                
-                
-                <h1 style="text-align:center">Ta bort användare!</H1>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Rrahman<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Hampus<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Viktor<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Namir<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Niklas<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Mergim<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Åsa<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Kevin<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Anna<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Nahal<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Ibrahim<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Christoffer<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Jonas<br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test"><strike>Cam</strike><br>
-                  <input type="checkbox" class="chk" name="reason" value="Radio Test">Marius<br>
-                  <br><button type="button" onclick="delBoxes();" >Ta bort användare</button>
-              </div>
-              <div class ="three right">
-                
-              </div>
+          </script>
+
+
+          <h1 style="text-align:center">Ta bort användare!</H1>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Rrahman<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Hampus<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Viktor<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Namir<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Niklas<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Mergim<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Åsa<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Kevin<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Anna<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Nahal<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Ibrahim<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Christoffer<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Jonas<br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test"><strike>Cam</strike><br>
+          <input type="checkbox" class="chk" name="reason" value="Radio Test">Marius<br>
+          <br><button type="button" onclick="delBoxes();">Ta bort användare</button>
+        </div>
+        <div class="three right">
+
+        </div>
       </div>
-        <div class ="row">
-       <footer>
-        <ul>
-         <li>Newton Yrkeshögskola<br>
-            Agneslunsvägen 14c&nbsp&nbsp&nbsp&nbsp&nbsp<br>
-            050505-5050&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</li>
-           <li> <a href="https://www.facebook.com/Newton.Yh"><i class="fa fa-facebook-official fa-3x"></i></a></li>
-           <li> <a href="http://instagram.com/newtonyh"><i class="fa fa-camera-retro fa-3x"></i></a></li>
-           <li> <a href="https://www.linkedin.com/company/newton-kompetensutveckling"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
-           <li> <a href="https://www.youtube.com/channel/UCmPK24ACND0bYiirPOp7gYA"><i class="fa fa-youtube-square fa-3x"></i></a></li>
- 
-        </ul>
-       </footer>
-     </div>
-     
-   </body>
-          
+      <div class="row">
+        <footer>
+          <ul>
+            <li>Newton Yrkeshögskola<br> Agneslunsvägen 14c&nbsp&nbsp&nbsp&nbsp&nbsp<br> 050505-5050&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+              &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            </li>
+            <li> <a href="https://www.facebook.com/Newton.Yh"><i class="fa fa-facebook-official fa-3x"></i></a></li>
+            <li> <a href="http://instagram.com/newtonyh"><i class="fa fa-camera-retro fa-3x"></i></a></li>
+            <li> <a href="https://www.linkedin.com/company/newton-kompetensutveckling"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
+            <li> <a href="https://www.youtube.com/channel/UCmPK24ACND0bYiirPOp7gYA"><i class="fa fa-youtube-square fa-3x"></i></a></li>
+
+          </ul>
+        </footer>
+      </div>
+
+</body>
